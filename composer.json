@@ -1,0 +1,29 @@
+{
+    "name": "phpnt/yii2-icheck",
+    "description": "Yii2 ICheck",
+    "keywords": ["yii2", "phpnt", "icheck"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "minimum-stability" : "dev",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/phpnt/yii2-icheck"
+    },
+    "authors": [
+        {
+            "name": "phpNT",
+            "email": "phpnt@phpnt.com",
+            "homepage": "http://phpnt.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "bower-asset/iCheck": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpnt\\ICheck\\": ""
+        }
+    }
+}
