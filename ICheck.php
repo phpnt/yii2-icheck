@@ -58,13 +58,13 @@ class ICheck extends InputWidget
 
         switch ($this->type) {
             case 'checkbox':
-                echo Html::activeInput('checkbox', $this->model, $this->attribute, $this->options);
+                echo Html::activeCheckbox($this->model, $this->attribute, $this->options);
                 break;
             case 'checkbox-list':
                 echo Html::activeCheckboxList($this->model, $this->attribute, $this->items, $this->options);
                 break;
             case 'radio':
-                echo Html::activeInput('radio', $this->model, $this->attribute, $this->options);
+                echo Html::activeRadio($this->model, $this->attribute, $this->options);
                 break;
             case 'radio-list':
                 echo Html::activeRadioList($this->model, $this->attribute, $this->items, $this->options);
